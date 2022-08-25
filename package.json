@@ -1,0 +1,23 @@
+{
+  "name": "time-tracking-dashboard",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wojciech94/Time-Tracking-Dashboard.git"
+  },
+  "keywords": [],
+  "author": "szean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wojciech94/Time-Tracking-Dashboard/issues"
+  },
+  "homepage": "https://github.com/wojciech94/Time-Tracking-Dashboard#readme",
+  "dependencies": {
+    "sass": "^1.54.5"
+  }
+}
