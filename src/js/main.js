@@ -20,7 +20,7 @@ const selfCareLastTime = document.querySelector('.self-care-last-time')
 const btns = document.querySelectorAll('.main-panel--timeframe-global-btn')
 let activeBtn = document.getElementsByClassName('btn-active')
 
-const hoursPostfix = 'hrs'
+const hoursPostfix = 'h'
 const dayPrefix = 'yesterday - '
 const weekPrefix = 'last week - '
 const monthPrefix = 'last month - '
