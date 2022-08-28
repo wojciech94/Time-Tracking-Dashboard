@@ -162,8 +162,7 @@ body .wrapper .self-care-panel {
   background-image: url("../img/icon-self-care.svg");
 }
 body .attribution {
-  position: absolute;
-  bottom: 0;
+  position: relative;
 }
 
 @media (min-width: 768px) {
@@ -185,23 +184,27 @@ body .attribution {
     height: 100%;
     width: 100%;
   }
+  body .wrapper .panel--foreground {
+    align-content: space-evenly;
+    padding: 20px 0;
+  }
   body .wrapper .panel--foreground-title {
-    font-size: 1.8rem;
-    margin-bottom: 15px;
+    font-size: 2rem;
     margin-left: 20px;
+    margin-bottom: 0;
   }
   body .wrapper .panel--foreground-edit {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     margin-right: 20px;
   }
   body .wrapper .panel--foreground-time {
     padding-left: 20px;
-    font-size: 2.4rem;
-    width: 40%;
+    font-size: 4rem;
+    width: 100%;
   }
   body .wrapper .panel--foreground-previous-time {
-    padding-right: 20px;
-    font-size: 1.4rem;
+    padding-left: 20px;
+    font-size: 1.8rem;
   }
   body .wrapper .main-panel {
     grid-column: 1/2;
@@ -272,6 +275,24 @@ body .attribution {
     grid-row-start: 3;
     grid-row-end: 4;
   }
+  body .attribution {
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media (min-width: 992px) {
+  body .wrapper .panel--foreground {
+    align-content: center;
+    padding: 20px 0;
+  }
+  body .wrapper .panel--foreground-time {
+    font-size: 4rem;
+    width: 35%;
+  }
+  body .wrapper .panel--foreground-previous-time {
+    padding-right: 20px;
+    font-size: 1.6rem;
+  }
 }
 @media (min-width: 1200px) {
   body .wrapper {
@@ -280,27 +301,27 @@ body .attribution {
     grid-template-rows: 1fr 1fr;
     gap: 30px;
   }
-  body .wrapper .panel {
-    height: 100%;
-    width: 100%;
+  body .wrapper .panel--foreground {
+    align-content: space-evenly;
+    padding: 20px 0;
   }
   body .wrapper .panel--foreground-title {
-    font-size: 1.8rem;
-    margin-bottom: 30px;
+    font-size: 2.4rem;
     margin-left: 30px;
+    margin-bottom: 0;
   }
   body .wrapper .panel--foreground-edit {
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     margin-right: 30px;
   }
   body .wrapper .panel--foreground-time {
     padding-left: 30px;
-    font-size: 2.4rem;
-    width: 40%;
+    font-size: 6rem;
+    width: 100%;
   }
   body .wrapper .panel--foreground-previous-time {
-    padding-right: 30px;
-    font-size: 1.4rem;
+    padding-left: 30px;
+    font-size: 2rem;
   }
   body .wrapper .main-panel {
     height: 500px;
